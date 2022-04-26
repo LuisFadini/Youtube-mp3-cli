@@ -17,5 +17,5 @@
     "fluent-ffmpeg": "2.1.2",
     "ytdl-core": "4.11.0"
   },
-  "bin": "/src/index.js"
+  "bin": "./src/index.js"
 }
