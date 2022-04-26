@@ -1,0 +1,21 @@
+{
+  "name": "youtube-mp3-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI to download mp3 from Youtube",
+  "main": "index.js",
+  "type": "module",
+  "readme": "README.md",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "npm install && npm link",
+    "setup:yarn": "yarn add && yarn link"
+  },
+  "dependencies": {
+    "chalk": "5.0.1",
+    "ffmpeg-static": "5.0.0",
+    "fluent-ffmpeg": "2.1.2",
+    "ytdl-core": "4.11.0"
+  },
+  "bin": "/src/index.js"
+}
